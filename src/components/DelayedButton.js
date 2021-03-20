@@ -10,7 +10,8 @@ class DelayedButton extends React.Component {
   }
 
   render() {
-    return <button onClick={this.click}>Delay of Game</button>;
+    return <button 
+    onClick={this.click}>Delay of Game</button>
   }
 }
 
